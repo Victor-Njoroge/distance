@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+height:1.9em;
+max-width:auto;
+margin-left: 60px;
+margin-top: -30px;
+flex: 1;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.header ul li a{
+    color: gray;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 10px;
+    padding: 4em;
+}
+
+.header ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.logo{
+    width: 5%;
+    margin: 5px;
+    background: black;
+}
+.img{
+    background-color: black;
+}
+.form{
+    float: right;
+    margin: 10px;
+    background: black;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+input{
+    margin: 10px;
+    background: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight:lighter;
+    width: 15em;
+    height: 2em;
+}
+.title{
+    color: grey;
+    font-size: 12px;
+    font-weight: lighter;
+    margin:10px auto ;
+}
+.btn{
+    background: red;
+    color: white;
+    width: 7em;
+    height: 2em;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background: black;
+    color: red;
+    transition: 0.5s;
+}
+label{
+    color: grey;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
